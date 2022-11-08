@@ -1,1 +1,2 @@
-Day 1()
+Day 1(mapping the realworld objects to java objects)
+Day 2(creating packages and accesing from another package)
