@@ -1,3 +1,5 @@
+package java.main;
+
 public class Mobile {
     String mobilename;
     String colour;
