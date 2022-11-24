@@ -9,6 +9,8 @@ Day 8 (Object oriented programming exercise)<br>
 Day 9 (Java programming practices)<br>
 Day 10 (Java String programs)<br>
 Day 11 (Java String programs)<br>
-Day 12 (Java String programs)
+Day 12 (Java String programs)<br>
+Day 13 (Java String methods)
+
 
 
