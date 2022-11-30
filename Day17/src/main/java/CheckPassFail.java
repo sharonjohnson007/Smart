@@ -1,7 +1,6 @@
 package main.java;
 
 public class CheckPassFail {
-
     public static void main(String[] args) {
         int mark = 100;
         System.out.println("The mark is " + mark);
@@ -10,7 +9,6 @@ public class CheckPassFail {
         } else {
             System.out.println("FAIL");
         }
-
         System.out.println("DONE");
     }
 }
