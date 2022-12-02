@@ -6,17 +6,26 @@ package main.java;
 public class Product1ToN {
     public static void main(String[] args) {
         Product1ToN product1ToN = new Product1ToN();
+        product1ToN.findFactorial(1, 11);
+        product1ToN.findFactorial(1, 12);
         product1ToN.findFactorial(1, 13);
+        product1ToN.findFactorial(1, 14);
+        product1ToN.findFactorialLong(1, 13);
+        product1ToN.findFactorialLong(1, 14);
     }
-
-    public void findFactorial(int lowerBond, int upperBond) {
-        long product = 1;
-        int LOWERBOUND = lowerBond;
-        int UPPERBOUND = upperBond;
-        for (int number = LOWERBOUND; number <= UPPERBOUND; number++) {
+    public void findFactorial(int lowerBound, int upperBound) {
+        int product = 1;
+        for (int number = lowerBound; number <= upperBound; number++) {
             product = product * number;
         }
-        System.out.println("Product of given numbers: " + product);
+        System.out.println("Product of given numbers stored in int: " + product);
     }
-
+    //Storing using long
+    public void findFactorialLong(long lowerBond, long upperBond) {
+        long product = 1;
+        for (long number = lowerBond; number <= upperBond; number++) {
+            product = product * number;
+        }
+        System.out.println("Product of given numbers stored in  long: " + product);
+    }
 }
