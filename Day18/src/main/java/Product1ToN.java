@@ -21,9 +21,9 @@ public class Product1ToN {
         System.out.println("Product of given numbers stored in int: " + product);
     }
     //Storing using long
-    public void findFactorialLong(long lowerBond, long upperBond) {
+    public void findFactorialLong(long lowerBound, long upperBound) {
         long product = 1;
-        for (long number = lowerBond; number <= upperBond; number++) {
+        for (long number = lowerBound; number <= upperBound; number++) {
             product = product * number;
         }
         System.out.println("Product of given numbers stored in  long: " + product);
