@@ -21,7 +21,7 @@ public class Tribonacci {
             fnMinus1 = fnMinus2;
             fnMinus2 = fnMinus3;
             fnMinus3 = tn;
-            ++n; //5
+            ++n;
             System.out.print("\t" + tn);
             sum = sum + tn;
         }
