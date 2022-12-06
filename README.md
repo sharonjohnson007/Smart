@@ -13,7 +13,12 @@ Day 12 (Java String programs)<br>
 Day 13 (Java String methods)<br>
 Day 14 (Junit Testing examples)<br>
 Day 15 (Exception handling)<br>
-Day 16 (Test Driven Development(4 tests))
+Day 16 (Test Driven Development(4 tests))<br>
+Day 17 (Java Basic exercises 1.1 to 1.5)<br>
+Day 18 (Java Basic exercises 3 to 4.3)<br>
+Day 19 (Java Basic exercises 4.4 to 4.7)<br>
+Day 20 (Java Basic exercises 5 to 5.5)<br>
+
 
 
 
