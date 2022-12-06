@@ -23,7 +23,7 @@ public class Tribonacci {
             fnMinus3 = tn;
             ++n;
             System.out.print("\t" + tn);
-            sum = sum + tn;
+            sum += tn;
         }
         average = (sum / nMax);
         System.out.println("\nThe Average is: " + average);

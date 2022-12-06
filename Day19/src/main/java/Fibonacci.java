@@ -21,7 +21,7 @@ public class Fibonacci {
             fnMinus2 = fnMinus1;
             fnMinus1 = fn;
             System.out.print("\t" + fn);
-            sum = sum + fn;
+            sum += fn;
         }
         average = sum / nMax;
         System.out.println("\nThe average is: " + average);
