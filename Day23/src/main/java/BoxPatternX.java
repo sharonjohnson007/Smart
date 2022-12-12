@@ -2,6 +2,10 @@ package main.java;
 
 import java.util.Scanner;
 
+/**
+ * To print various pattern using for loop that prompts  size from the user.
+ */
+
 public class BoxPatternX {
     public static void main(String[] args) {
         int size;
