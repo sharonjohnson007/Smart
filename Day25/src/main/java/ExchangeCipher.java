@@ -3,93 +3,95 @@ package main.java;
 import java.util.Scanner;
 
 /**
- *To compute the ciphertext that prompts the user for string.
+ * To compute the ciphertext that prompts the user for string.
  */
 public class ExchangeCipher {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String inChar;
+        String inChar, exchangeCipher = "";
         System.out.print("Enter a plaintext string: ");
         inChar = in.next().toUpperCase();
+        char[] a = inChar.toCharArray();
         for (int i = 0; i < inChar.length(); i++) {
             if (inChar.charAt(i) == 'A') {
-                System.out.print("Z");
+                exchangeCipher += "Z";
             }
             if (inChar.charAt(i) == 'B') {
-                System.out.print("Y");
+                exchangeCipher += "Y";
             }
             if (inChar.charAt(i) == 'C') {
-                System.out.print("X");
+                exchangeCipher += "X";
             }
             if (inChar.charAt(i) == 'D') {
-                System.out.print("W");
+                exchangeCipher += "W";
             }
             if (inChar.charAt(i) == 'E') {
-                System.out.print("V");
+                exchangeCipher += "V";
             }
             if (inChar.charAt(i) == 'F') {
-                System.out.print("U");
+                exchangeCipher += "U";
             }
             if (inChar.charAt(i) == 'G') {
-                System.out.print("T");
+                exchangeCipher += "T";
             }
             if (inChar.charAt(i) == 'H') {
-                System.out.print("S");
+                exchangeCipher += "S";
             }
             if (inChar.charAt(i) == 'I') {
-                System.out.print("R");
+                exchangeCipher += "R";
             }
             if (inChar.charAt(i) == 'J') {
-                System.out.print("Q");
+                exchangeCipher += "Q";
             }
             if (inChar.charAt(i) == 'K') {
-                System.out.print("P");
+                exchangeCipher += "P";
             }
             if (inChar.charAt(i) == 'L') {
-                System.out.print("O");
+                exchangeCipher += "O";
             }
             if (inChar.charAt(i) == 'M') {
-                System.out.print("N");
+                exchangeCipher += "N";
             }
             if (inChar.charAt(i) == 'N') {
-                System.out.print("M");
+                exchangeCipher += "N";
             }
             if (inChar.charAt(i) == 'O') {
-                System.out.print("L");
+                exchangeCipher += "L";
             }
             if (inChar.charAt(i) == 'P') {
-                System.out.print("K");
+                exchangeCipher += "K";
             }
             if (inChar.charAt(i) == 'Q') {
-                System.out.print("J");
+                exchangeCipher += "J";
             }
             if (inChar.charAt(i) == 'R') {
-                System.out.print("I");
+                exchangeCipher += "I";
             }
             if (inChar.charAt(i) == 'S') {
-                System.out.print("H");
+                exchangeCipher += "H";
             }
             if (inChar.charAt(i) == 'T') {
-                System.out.print("G");
+                exchangeCipher += "G";
             }
             if (inChar.charAt(i) == 'U') {
-                System.out.print("F");
+                exchangeCipher += "F";
             }
             if (inChar.charAt(i) == 'V') {
-                System.out.print("E");
+                exchangeCipher += "E";
             }
             if (inChar.charAt(i) == 'W') {
-                System.out.print("D");
+                exchangeCipher += "D";
             }
             if (inChar.charAt(i) == 'X') {
-                System.out.print("C");
+                exchangeCipher += "C";
             }
             if (inChar.charAt(i) == 'Y') {
-                System.out.print("B");
+                exchangeCipher += "B";
             }
             if (inChar.charAt(i) == 'Z') {
-                System.out.print("A");
+                exchangeCipher += "A";
             }
         }
+        System.out.println("The ciphertext is: " + exchangeCipher);
     }
 }

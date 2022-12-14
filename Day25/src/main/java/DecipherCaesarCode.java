@@ -8,8 +8,9 @@ import java.util.Scanner;
 public class DecipherCaesarCode {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String inChar;
-        System.out.print("Enter a plaintext string: ");
+        String inChar, decipher;
+        decipher = "";
+        System.out.print("The ciphertext string is: ");
         inChar = in.next().toUpperCase();
         char[] a = inChar.toCharArray();
         for (int i = 0; i < a.length; i++) {
@@ -20,8 +21,9 @@ public class DecipherCaesarCode {
             } else if (a[i] == 'C') {
                 System.out.print("Z");
             } else {
-                System.out.print((char) (a[i] - 3));
+                decipher += (char) (a[i] - 3);
             }
         }
+        System.out.println("The plaintext is : "+decipher);
     }
 }

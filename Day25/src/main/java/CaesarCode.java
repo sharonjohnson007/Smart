@@ -9,6 +9,7 @@ public class CaesarCode {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String inChar;
+        String caesar="";
         System.out.print("Enter a plaintext string: ");
         inChar = in.next().toUpperCase();
         char[] a = inChar.toCharArray();
@@ -20,9 +21,10 @@ public class CaesarCode {
             } else if (a[i] == 'Z') {
                 System.out.print("C");
             } else {
-                System.out.print((char) (a[i] + 3)); // Based on unicode value.
+                caesar+=(char) (a[i] + 3); // Based on unicode value.
             }
         }
+        System.out.println("The ciphertext string is: "+caesar);
     }
 }
 
