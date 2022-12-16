@@ -18,6 +18,13 @@ Day 17 (Java Basic exercises 1.1 to 1.5)<br>
 Day 18 (Java Basic exercises 3 to 4.3)<br>
 Day 19 (Java Basic exercises 4.4 to 4.7)<br>
 Day 20 (Java Basic exercises 5 to 5.5)<br>
+Day 21 (Java Basic exercises 5.6 to 5.8)<br>
+Day 22 (Java Basic exercises 5.9 to 5.13)<br>
+Day 23 (Java Basic exercises 6.1 to 6.6)<br>
+Day 24 (Java Basic exercises 6.7 to 8.2)<br>
+Day 25 (Java Basic exercises 8.3 to 8.9)<br>
+Day 26 (Java Basic exercises 8.10 to 9.2)<br>
+
 
 
 
