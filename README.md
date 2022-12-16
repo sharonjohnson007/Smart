@@ -24,6 +24,8 @@ Day 23 (Java Basic exercises 6.1 to 6.6)<br>
 Day 24 (Java Basic exercises 6.7 to 8.2)<br>
 Day 25 (Java Basic exercises 8.3 to 8.9)<br>
 Day 26 (Java Basic exercises 8.10 to 9.2)<br>
+Day 26 (Java Basic exercises 9.3 to 10.4)
+
 
 
 
