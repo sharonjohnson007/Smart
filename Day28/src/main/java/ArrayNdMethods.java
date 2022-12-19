@@ -23,7 +23,6 @@ public class ArrayNdMethods {
         reverse(c);
         System.out.println("Using swap method " + swap(c, e));
         System.out.println("Using copyOf method with new length " + Arrays.toString(copyOf(a, 8)));
-
     }
 
     public static String arrayToString(int[] array) {
@@ -65,6 +64,9 @@ public class ArrayNdMethods {
 
     public static int[] copyOf(int[] array) {
         int[] copyOfArray = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            copyOfArray[i] = Integer.parseInt(String.valueOf(array[i]));
+        }
         return copyOfArray;
     }
 
