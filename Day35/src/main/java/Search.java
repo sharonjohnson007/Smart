@@ -52,18 +52,8 @@ public class Search {
     }
 
     public static boolean binarySearch(int[] array, int key) {
-        int fromIdx = 0;
+        int fromIndex = 0;
         int toIdx = array.length - 1;
-        while (fromIdx <= toIdx) {
-            int middleIdx = (fromIdx + toIdx) / 2;
-            if (key > array[middleIdx]) {
-                fromIdx = middleIdx + 1;
-            } else if (key < array[middleIdx]) {
-                toIdx = middleIdx - 1;
-            } else {
-                return true;
-            }
-        }
-        return false;
+        return binarySearch(array, key, fromIndex, toIdx);
     }
 }
